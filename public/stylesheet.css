@@ -8,10 +8,6 @@ img {
 	max-height: 60%;
 }
 
-/*body {
-	color: red;
-}*/
-
 /*ALL PAGES*/
 body {
 	background-color: #CCFFFF;
@@ -38,6 +34,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
   padding: 15px;
+  clear: both;
 }
 
 a {
@@ -69,13 +66,13 @@ a {
 /*MOVIES RESULTS*/
 .movie_info {
 	border: 2px solid black;
-	color: red;
 	float: right;
 	width: 40%;
+  border-radius: 5px;
 }
 
 .poster {
 	float: left;
-	border: 2px solid black;
+/*	border: 2px solid black;*/
 	width:40%;
 }

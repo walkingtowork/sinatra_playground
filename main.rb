@@ -12,11 +12,15 @@ end
 
 get "/image_result" do 
 	@image_search = params[:image_search]
-  suckr = ImageSuckr::GoogleSuckr.new
+  begin
+    suckr = ImageSuckr::GoogleSuckr.new
 
-  @image_result = suckr.get_image_url({"q" => "#{@image_search}"})
+    @image_result = suckr.get_image_url({"q" => "#{@image_search}"})
 
-  erb :image_result
+    erb :image_result
+  rescue
+    erb :error
+  end
 end
 
 get "/random_image" do
