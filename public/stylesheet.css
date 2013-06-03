@@ -1,0 +1,81 @@
+.image_result {
+	margin: 0 auto;
+  text-align: center;
+}
+
+img {
+	max-width: 60%%;
+	max-height: 60%;
+}
+
+/*body {
+	color: red;
+}*/
+
+/*ALL PAGES*/
+body {
+	background-color: #CCFFFF;
+	font-family: helvetica;
+}
+
+nav {
+	margin: 0 150px;
+	text-align: center;
+  padding: 15px;
+/*  background: #FF3300;
+	border: 2px solid black;
+  border-radius: 5px;*/
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*HOMEPAGE*/
+.home {
+	border: 2px solid black;
+	margin: 0 150px;
+	text-align: center;
+	background-color: #FFCC66;
+	border-radius: 5px;
+	height: 70%;
+}
+
+/*SEARCH PAGES*/
+.search {
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 100px;
+  background-color: #FFCC66;
+  border-radius: 5px;
+  height: 40%;
+  margin: 0 150px;
+}
+
+/*MOVIES RESULTS*/
+.movie_info {
+	border: 2px solid black;
+	color: red;
+	float: right;
+	width: 40%;
+}
+
+.poster {
+	float: left;
+	border: 2px solid black;
+	width:40%;
+}

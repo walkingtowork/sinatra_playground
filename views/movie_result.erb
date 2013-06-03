@@ -1,0 +1,18 @@
+<p>Results of your search:</p>
+<h1><%= (@movie_result.plot == nil ? "Could not be found" : @movie_result.title) %></h1>
+
+<div class="image" class="poster">
+  <p>Movie Poster</p>
+  </p><img src="<%= @movie_result.poster %>"</></p>
+</div>
+
+<div class="movie_info">  
+<p><%= @movie_result.released %></p>
+<p><%= @movie_result.director %></p>
+<p><%= @movie_result.runtime %></p>
+<p><%= @movie_result.actors %></p>
+
+</p><img src="<%= @movie_image %>"</></p>
+</div>
+
+

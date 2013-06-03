@@ -1,0 +1,14 @@
+<div class="image_result">
+	<p>Results of your search:</p>
+	<img src="<%=@image_result %>"/>
+
+
+	<p>Want another?</p>
+
+	<form action="/image_result" method="gets">
+			<input type="hidden" name="image_search" value="<%=@image_search%>">
+
+			<button>Search</button>
+	</form>
+
+</div>
